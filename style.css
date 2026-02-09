@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+  /* Base */
+  --color-black: #0B0B0B;
+  --color-white: #FFFFFF;
+  --color-gray:  #2A2A2A;
+
+  /* Destaque */
+  --color-red:   #8B0000;
+  --color-gold:  #C9A227;
+}
+
+@font-face {
+    font-family: 'font';
+    src: url(font/JudoKidsDemo-Regular.otf);
+}
+
+@font-face {
+    font-family: 'japa';
+    src: url(fonts/Hoshiko\ Satsuki.ttf);
+}
+
+@font-face {
+    font-family: 'gang';
+    src: url(fonts/go3v2.ttf);
+}
+
+body {
+    background-color: var(--color-gray);
+}
+
+.app-header {
+    background-color: var(--color-black);
+}
+
+.app-header h1, p {
+    margin: auto;
+    text-align: center;
+    font-family: 'gang';
+    border-left: 8px solid var(--color-white);
+    border-right: 8px solid var(--color-white);
+    font-weight: 100;
+    padding: 5px;
+    color: var(--color-white);
+    background-color: #8B0000;
+    width: 40%;
+}
+
+nav {
+    background-color: var(--color-white);
+    height: 50px;
+}
