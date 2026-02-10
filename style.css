@@ -37,6 +37,7 @@ body {
 
 .app-header {
     background-color: var(--color-black);
+    margin-bottom: 5px;
 }
 
 .app-header h1, p {
@@ -52,7 +53,51 @@ body {
     width: 40%;
 }
 
+.profile-header {
+    position: relative;
+}
+
+.img-fundo {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.img-fundo img{
+    height: 100%;
+    width: 98%;
+    border-radius: 8px;
+}
+
+.img-perfil {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%)
+}
+
+.img-perfil img {
+    height: 100%;
+    border-radius: 50%;
+    border: solid 5px blue;
+    outline: solid 3px white;
+}
+
 nav {
+    margin-top: 50px;
     background-color: var(--color-white);
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: 'japa';
 }
