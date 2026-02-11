@@ -40,7 +40,7 @@ body {
     margin-bottom: 5px;
 }
 
-.app-header h1, p {
+.app-header h1, p.slogan {
     margin: auto;
     text-align: center;
     font-family: 'gang';
@@ -53,7 +53,7 @@ body {
     width: 40%;
 }
 
-.profile-header {
+#profile-header {
     position: relative;
 }
 
@@ -86,8 +86,16 @@ body {
     outline: solid 3px white;
 }
 
-nav {
+.nome {
+    font-family: 'japa';
+    color: var(--color-white);
     margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav {
+    margin-top: 10px;
     background-color: var(--color-white);
     height: 50px;
     display: flex;
@@ -100,4 +108,34 @@ nav a {
     text-decoration: none;
     color: var(--color-black);
     font-family: 'japa';
+    transition: ease-in-out 0.3s;
+}
+
+nav a:hover {
+    color: var(--color-white);
+    background-color: var(--color-gray);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #8B0000;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer p {
+    font-family: 'gang';
+    color: var(--color-white);
+    text-align: center;
 }
