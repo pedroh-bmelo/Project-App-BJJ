@@ -202,7 +202,28 @@ input[type="checkbox"] {
   accent-color: var(--color-gold); /* sua cor */
 }
 
+summary {
+    list-style: none;
+}
 
+.card-faixa {
+    background-color: var(--color-white);
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    color: var(--color-black);
+    font-family: 'gang';
+    font-weight: 100;
+    border-radius: 8px;
+}
+
+.card-faixa p {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.card-faixa h3:hover {
+    cursor: pointer;
+}
 
 footer {
     background-color: #8B0000;
