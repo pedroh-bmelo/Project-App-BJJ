@@ -133,7 +133,7 @@ iframe {
     font-family: 'gang';
 }
 
-.treinos h1 {
+.titulo-pagina {
     font-family: 'japa';
     text-align: center;
     text-shadow: 2px 2px 4px #000;
@@ -222,6 +222,18 @@ summary {
 }
 
 .card-faixa h3:hover {
+    cursor: pointer;
+}
+
+.card-tecnicas {
+    background-color: var(--color-white);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'gang';
+}
+
+.card-tecnicas:hover {
     cursor: pointer;
 }
 
