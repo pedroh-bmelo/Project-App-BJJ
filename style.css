@@ -233,6 +233,10 @@ summary {
     font-family: 'gang';
 }
 
+ul {
+    list-style: none;
+}
+
 .card-tecnicas:hover {
     cursor: pointer;
 }
